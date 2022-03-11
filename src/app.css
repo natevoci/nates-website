@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #FAFBFF;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6,
+p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+a {
+  color: #597FB3;
+  text-decoration: none;
+}
+
+input,
+select,
+textarea,
+button {
+  font-family: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+}
+
+/* button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 0;
+} */
