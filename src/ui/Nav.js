@@ -3,7 +3,6 @@ import styled from '@emotion/styled';
 import { Link, useMatch } from 'react-router-dom';
 import {
   List,
-  ListItem,
   ListItemButton,
   ListItemIcon,
   ListItemText,
@@ -21,6 +20,13 @@ const StyledNav = styled.nav`
   padding: 8px 8px;
 `;
 
+const ListItem = styled.li`
+  width: 100%;
+  &:not(:first-of-type) {
+    margin-top: 8px;
+  }
+`;
+
 const StyledLink = styled(({ $match, ...props }) => (<Link {...props} />))`
   display: flex;
   border-radius: 12px;
@@ -36,20 +42,20 @@ const ReactRouterLink = (props) => {
 export const Nav = () => (
   <StyledNav aria-label="navigation menu">
     <List>
-      {Object.values(ROUTES).map(({ url, title }) => (
-        <ReactRouterLink
-          key={url}
-          to={url}
-        >
-          <ListItem disablePadding>
+      {Object.values(ROUTES).map(({ url, Icon, title }) => (
+        <ListItem disablePadding>
+          <ReactRouterLink
+            key={url}
+            to={url}
+          >
             <ListItemButton>
               <ListItemIcon>
-                <HomeIcon />
+                <Icon />
               </ListItemIcon>
               <ListItemText primary={title} />
             </ListItemButton>
-          </ListItem>
-        </ReactRouterLink>
+          </ReactRouterLink>
+        </ListItem>
       ))}
     </List>
   </StyledNav>
