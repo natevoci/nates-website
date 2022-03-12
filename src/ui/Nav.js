@@ -43,11 +43,11 @@ export const Nav = () => (
   <StyledNav aria-label="navigation menu">
     <List>
       {Object.values(ROUTES).map(({ url, Icon, title }) => (
-        <ListItem disablePadding>
-          <ReactRouterLink
-            key={url}
-            to={url}
-          >
+        <ListItem
+          key={url}
+          disablePadding
+        >
+          <ReactRouterLink to={url}>
             <ListItemButton>
               <ListItemIcon>
                 <Icon />

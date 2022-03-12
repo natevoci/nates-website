@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Layout, Nav, NewsItem, Paragraph, Audio, BlockQuote } from '../../ui';
+import { Layout, Nav, CardItem, Paragraph, Audio, BlockQuote } from '../../ui';
 
 import audioRainLive from 'url:../../Downloads/Music/Rain_(live).mp3';
 import audioWeHaveASaviour from 'url:../../Downloads/Music/17 - Deep Creek - We Have A Saviour.mp3';
@@ -17,14 +17,14 @@ export default () => {
     <Layout
       nav={<Nav />}
     >
-      <NewsItem title="New 'Know The Truth' recording" date="18-Nov-2020">
+      <CardItem title="New 'Know The Truth' recording" date="18-Nov-2020">
         <Paragraph>
         Another of my songs, <a href="/music/song.rails?song=KnowTheTruth">Know The Truth</a>, has been recorded
         by the familiy@10 band for online worship this week.
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="Online Worship" date="27-Oct-2020" author="Nate">
+      <CardItem title="Online Worship" date="27-Oct-2020" author="Nate">
         <Paragraph>
         With the COVID situation we have not been worshipping on site this year since March, and instead
         we're <a href="http://manninghamuc.org/online/">worshipping online</a>. to contribute to these services
@@ -42,9 +42,9 @@ export default () => {
         <Paragraph>
         For more information on copyright see <a href="/music/">this page</a>.
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="Rain" date="05-Aug-2015" author="Nate">
+      <CardItem title="Rain" date="05-Aug-2015" author="Nate">
         <Paragraph>
         During Lent this year I had the opportunity to write another new song, <a href="/music/song.rails?song=Rain">Rain</a>. You can download the
         music and a live recording from church from the <a href="/music/songs.rails">songs / downloads</a> page.
@@ -125,9 +125,9 @@ export default () => {
         A fact of life is that sometimes things are going to annoy us, but if we can get through
         that then we might find that it allowed something new to grow.
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="New version of TSFileSource" date="22-Apr-2012" author="Nate">
+      <CardItem title="New version of TSFileSource" date="22-Apr-2012" author="Nate">
         <Paragraph>
           I've uploaded <a href="/dev/tsfilesource.rails">TSFileSource 2.2.1.172</a>. This new version
           mostly bug fixes. See the <a href="/dev/tsfilesource.rails?history=true#TSFS2.2.1.172">History</a>
@@ -140,9 +140,9 @@ export default () => {
           accurate, however it's a complicated process so it's taking a while and I'm only implementing it for
           TS mpeg files (188 byte packets) to begin with. I'll leave PS mpeg files (2048 byte packets) for later.
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="TSNowAndNext - using Now and Next data to create a ProjectX cut file" date="07-Nov-2011" author="Nate">
+      <CardItem title="TSNowAndNext - using Now and Next data to create a ProjectX cut file" date="07-Nov-2011" author="Nate">
         <Paragraph>
           While experimenting with Comskip I discovered that the large pre and post padding i
           use with my recordings so that I don't miss stuff when the networks run late was
@@ -160,9 +160,9 @@ export default () => {
         <Paragraph>
           <img src={imageTSFileSource} />
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="We Have A Saviour" date="12-May-2011" author="Nate">
+      <CardItem title="We Have A Saviour" date="12-May-2011" author="Nate">
         <Paragraph>
         I got inspired over the last few days and as a result I have
         another new song. It's called We Have A Saviour and is themed
@@ -176,9 +176,9 @@ export default () => {
         You can download the music and a recording from
         the <a href="/music/songs.rails">songs / downloads</a> page.
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="Amazing" date="03-Sep-2010" author="Nate">
+      <CardItem title="Amazing" date="03-Sep-2010" author="Nate">
         <Paragraph>
         It's taken me a while to get this up on the website, but the music and recording
         of my latest song Amazing is now available
@@ -191,9 +191,9 @@ export default () => {
         <Paragraph>
           <Audio srcList={[audioAmazing]} />
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="Keyboard Redirector - for remapping your keyboards" date="02-Dec-2009" author="Nate">
+      <CardItem title="Keyboard Redirector - for remapping your keyboards" date="02-Dec-2009" author="Nate">
         <Paragraph>
           <img src={imageKeyboardRedirector} width="223" height="200" />
         </Paragraph>
@@ -211,9 +211,9 @@ export default () => {
         <Paragraph>
           <a href="/dev/keyboardredirector.rails">Keyboard Redirector</a>
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="New website with built in music player" date="4-Jul-2009" author="Nate">
+      <CardItem title="New website with built in music player" date="4-Jul-2009" author="Nate">
         <Paragraph>
           It's been a long time coming, but I finally got around to completing the
           new website.
@@ -244,9 +244,9 @@ export default () => {
           more about css and website formatting in general. I'm not a designer, but I tried
           my best, so hopefully it doesn't look too obnoxious.
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="Follow The Signs (new song)" date="02-Jul-2009" author="Nate">
+      <CardItem title="Follow The Signs (new song)" date="02-Jul-2009" author="Nate">
         <Paragraph>
           I was inspired to write a new song the other day. We've been discussing mountain top
           experiences, and journeying in church the last few weeks, and then last Friday night
@@ -289,9 +289,9 @@ export default () => {
         <Paragraph>
           <Audio srcList={[audioFollowTheSigns]} />
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="I'll Go (new song)" date="26-Apr-2009" author="Nate">
+      <CardItem title="I'll Go (new song)" date="26-Apr-2009" author="Nate">
         <Paragraph>
           I've taken inspiration from Lucas' sermons about actively taking control of the direction
           of your life rather than just letting the world pass you by, and also drawing a little
@@ -310,9 +310,9 @@ export default () => {
         <Paragraph>
           <Audio srcList={[audioIllGo]} />
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="Your Kingdom (new song)" date="15-Apr-2008" author="Nate">
+      <CardItem title="Your Kingdom (new song)" date="15-Apr-2008" author="Nate">
         <Paragraph>
           My first song written on an electric guitar. It's a little more upbeat than I usually 
           go but it's good fun to sing (at least it is for me).<br />
@@ -328,9 +328,9 @@ export default () => {
           of many different takes of electric, bass, and acoustic guitar with vocals and a
           programmed drum track.
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="NCYC is over" date="11-Jan-2009" author="Nate">
+      <CardItem title="NCYC is over" date="11-Jan-2009" author="Nate">
         <Paragraph>
           I had a pretty good week. Didn't get to too many bible studies because of the amount of
           time the worship band had to be in rehearsals, but that's ok. Playing up on stage was an
@@ -342,9 +342,9 @@ export default () => {
           around organising bass amps for the different bands to use. I was pretty impressed with
           Simeon, SCAT, and Jess and T.E.D.
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="NCYC live recording" date="14-Jun-2009" author="Nate">
+      <CardItem title="NCYC live recording" date="14-Jun-2009" author="Nate">
         <Paragraph>
           On the 28th of June we're putting on a live concert to record the new NCYC'09 album.
           We've been practicing every Saturday and it's sounding pretty good.
@@ -354,25 +354,25 @@ export default () => {
           backup guitar for NCYC, plus I've been thinking about getting a 5 string for a while so
           now's my chance.
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="NCYC Worship band" date="22-May-2009" author="Nate">
+      <CardItem title="NCYC Worship band" date="22-May-2009" author="Nate">
         <Paragraph>
           On top of have two of my songs chosen to be part of the NCYC'09 songbook, I've also just
           found out that I've been selected from the audition process to be part of the main stage
           worship band where I'll be playing bass. It's going to be awesome!
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="Two songs chosen" date="14-May-2008" author="Nate">
+      <CardItem title="Two songs chosen" date="14-May-2008" author="Nate">
         <Paragraph>
           Got some very exciting news yesterday. Two of the my songs have been select by the NCYC
           music team to be part of the NCYC'09 songbook. The two songs are <b>Living For Heaven</b>
           and <b>Step Out In Faith</b>.
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="Getting ready for NCYC '09 submission" date="05-Feb-2008" author="Nate">
+      <CardItem title="Getting ready for NCYC '09 submission" date="05-Feb-2008" author="Nate">
         <Paragraph>
           Well it's been a few months now since the recording session in November and in that time
           I've been working my way through mixing the songs. I'm really loving learning more and more
@@ -399,17 +399,17 @@ export default () => {
             <li>Added lyrics for each of the songs</li>
           </ul>
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="Another Recording Session" date="16-Nov-2007" author="Nate">
+      <CardItem title="Another Recording Session" date="16-Nov-2007" author="Nate">
         <Paragraph>
           Last Saturday we had another recording session at the church. It was a fantastic day and we
           managed to get 10 songs recorded which is a great effort. I'll be uploading them here as
           I get time to mix them.
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="Remix of Shine Our Light" date="24-Sep-2007" author="Nate">
+      <CardItem title="Remix of Shine Our Light" date="24-Sep-2007" author="Nate">
         <Paragraph>
           I recently came across some new DAW software called <a href="http://reaper.fm/" target="_self">REAPER</a>
           so I decided to try it out by remixing Shine Our Light. What can I say, I'm extremely impressed.
@@ -425,9 +425,9 @@ export default () => {
           We've got the whole day so I'm hoping we'll be able to get through most of the songs that
           don't have recordings in the download section.
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="2 new songs and an update to the website" date="24-Aug-2007" author="Nate">
+      <CardItem title="2 new songs and an update to the website" date="24-Aug-2007" author="Nate">
         <Paragraph>
           It's been a fair while since I've updated the website, and I've had a few people ask for the
           link to it lately, so I thought it was a good time for an overhaul before I started handing
@@ -461,9 +461,9 @@ export default () => {
           some more recording in October before my brother heads off overseas for work, but it hasn't been
           organised yet so it might not happen. We'll see though.
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="Faith" date="07-Mar-2007" author="Nate">
+      <CardItem title="Faith" date="07-Mar-2007" author="Nate">
         <Paragraph>
           This month's theme at church is Faith, and after hearing two different talks about it on
           Sunday I got inspired.
@@ -471,9 +471,9 @@ export default () => {
         <Paragraph>
           <b>Step Out In Faith</b> has been added to the downloads.
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="I finished writing another song today, and made some changes to another" date="30-Jan-2007" author="Nate">
+      <CardItem title="I finished writing another song today, and made some changes to another" date="30-Jan-2007" author="Nate">
         <Paragraph>
           I finished another song today. <b>This Troubled Life</b>. It's a slower one than my others
           so it'll be interesting to see how it goes with the band.
@@ -490,9 +490,9 @@ export default () => {
         <Paragraph>
           I liked patch, so I've changed it in the sheet music as well.
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="2 new songs and an mp3" date="07-Jan-2007" author="Nate">
+      <CardItem title="2 new songs and an mp3" date="07-Jan-2007" author="Nate">
         <Paragraph>
           It's taken a lot longer than expected to mix the songs we recorded back in July but I finally
           managed to spend some time on it and I've done <b>Inside Of Me</b> and added a download link
@@ -501,9 +501,9 @@ export default () => {
         <Paragraph>
           I've also added the sheet music for two new songs named <b>Creation</b> and <b>Called</b>.
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="Another recording session" date="12-Jul-2006" author="Nate">
+      <CardItem title="Another recording session" date="12-Jul-2006" author="Nate">
         <Paragraph>
           We had another recording session yesterday to record some more new songs. I'm tired now, but
           it's worth it. The recording process is so much fun.
@@ -513,9 +513,9 @@ export default () => {
           Not sure if I'll get time to mix them in the near future since I'm getting married next month.
           YAY!<br />
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
-      <NewsItem title="Website Started" date="08-Jul-2006" author="Nate">
+      <CardItem title="Website Started" date="08-Jul-2006" author="Nate">
         <Paragraph>
           I'm adding the sheet music for most of the songs I've written so far.
         </Paragraph>
@@ -552,7 +552,7 @@ export default () => {
         <Paragraph>
           Enjoy!!
         </Paragraph>
-      </NewsItem>
+      </CardItem>
 
     </Layout>
   )

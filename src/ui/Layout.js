@@ -15,6 +15,7 @@ const ContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
   padding: 16px 16px 0 16px;
+  gap: 16px;
 `;
 
 export const Layout = ({ children, nav }) => {
