@@ -21,7 +21,7 @@ const StyledNav = styled.nav`
   padding: 8px 8px;
 `;
 
-const StyledLink = styled(Link)`
+const StyledLink = styled(({ $match, ...props }) => (<Link {...props} />))`
   display: flex;
   border-radius: 12px;
   overflow: hidden;
@@ -30,7 +30,6 @@ const StyledLink = styled(Link)`
 
 const ReactRouterLink = (props) => {
   const match = useMatch(props.to);
-  console.log({ to: props.to, match: !!match });
   return <StyledLink $match={!!match} {...props} />;
 }
 
