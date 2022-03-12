@@ -5,4 +5,5 @@ export const TextBlock = styled.div`
   flex-direction: column;
   gap: 16px;
   color: #727272;
+  line-height: 150%;
 `;

@@ -58,9 +58,6 @@ aside {
   text-align: center;
 }
 
-/* button:focus,
-input:focus,
-textarea:focus,
-select:focus {
-  outline: 0;
-} */
+ul {
+  margin-bottom: 0;
+}

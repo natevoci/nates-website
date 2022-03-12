@@ -5,7 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import { TextBlock } from './TextBlock';
 
 const StyledCard = styled(Card)`
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 `;
 
 const StyledCardHeader = styled(CardContent)`
