@@ -9,6 +9,7 @@ const App = () => (
   <div style={{
     backgroundImage: `url(${imageBG})`,
     backgroundSize: `100%`,
+    minHeight: '100%',
   }}>
     <Router />
   </div>
