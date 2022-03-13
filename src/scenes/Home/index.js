@@ -24,7 +24,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="Online Worship" date="27-Oct-2020" author="Nate">
+      <CardItem title="Online Worship" date="27-Oct-2020">
         <Paragraph>
         With the COVID situation we have not been worshipping on site this year since March, and instead
         we're <a href="http://manninghamuc.org/online/">worshipping online</a>. to contribute to these services
@@ -44,7 +44,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="Rain" date="05-Aug-2015" author="Nate">
+      <CardItem title="Rain" date="05-Aug-2015">
         <Paragraph>
         During Lent this year I had the opportunity to write another new song, <a href="/music/song.rails?song=Rain">Rain</a>. You can download the
         music and a live recording from church from the <a href="/music/songs.rails">songs / downloads</a> page.
@@ -127,7 +127,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="New version of TSFileSource" date="22-Apr-2012" author="Nate">
+      <CardItem title="New version of TSFileSource" date="22-Apr-2012">
         <Paragraph>
           I've uploaded <a href="/dev/tsfilesource.rails">TSFileSource 2.2.1.172</a>. This new version
           mostly bug fixes. See the <a href="/dev/tsfilesource.rails?history=true#TSFS2.2.1.172">History</a>
@@ -142,7 +142,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="TSNowAndNext - using Now and Next data to create a ProjectX cut file" date="07-Nov-2011" author="Nate">
+      <CardItem title="TSNowAndNext - using Now and Next data to create a ProjectX cut file" date="07-Nov-2011">
         <Paragraph>
           While experimenting with Comskip I discovered that the large pre and post padding i
           use with my recordings so that I don't miss stuff when the networks run late was
@@ -162,7 +162,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="We Have A Saviour" date="12-May-2011" author="Nate">
+      <CardItem title="We Have A Saviour" date="12-May-2011">
         <Paragraph>
         I got inspired over the last few days and as a result I have
         another new song. It's called We Have A Saviour and is themed
@@ -178,7 +178,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="Amazing" date="03-Sep-2010" author="Nate">
+      <CardItem title="Amazing" date="03-Sep-2010">
         <Paragraph>
         It's taken me a while to get this up on the website, but the music and recording
         of my latest song Amazing is now available
@@ -193,7 +193,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="Keyboard Redirector - for remapping your keyboards" date="02-Dec-2009" author="Nate">
+      <CardItem title="Keyboard Redirector - for remapping your keyboards" date="02-Dec-2009">
         <Paragraph>
           <img src={imageKeyboardRedirector} width="223" height="200" />
         </Paragraph>
@@ -213,7 +213,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="New website with built in music player" date="4-Jul-2009" author="Nate">
+      <CardItem title="New website with built in music player" date="4-Jul-2009">
         <Paragraph>
           It's been a long time coming, but I finally got around to completing the
           new website.
@@ -246,7 +246,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="Follow The Signs (new song)" date="02-Jul-2009" author="Nate">
+      <CardItem title="Follow The Signs (new song)" date="02-Jul-2009">
         <Paragraph>
           I was inspired to write a new song the other day. We've been discussing mountain top
           experiences, and journeying in church the last few weeks, and then last Friday night
@@ -291,7 +291,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="I'll Go (new song)" date="26-Apr-2009" author="Nate">
+      <CardItem title="I'll Go (new song)" date="26-Apr-2009">
         <Paragraph>
           I've taken inspiration from Lucas' sermons about actively taking control of the direction
           of your life rather than just letting the world pass you by, and also drawing a little
@@ -312,7 +312,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="Your Kingdom (new song)" date="15-Apr-2008" author="Nate">
+      <CardItem title="Your Kingdom (new song)" date="15-Apr-2008">
         <Paragraph>
           My first song written on an electric guitar. It's a little more upbeat than I usually 
           go but it's good fun to sing (at least it is for me).<br />
@@ -330,7 +330,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="NCYC is over" date="11-Jan-2009" author="Nate">
+      <CardItem title="NCYC is over" date="11-Jan-2009">
         <Paragraph>
           I had a pretty good week. Didn't get to too many bible studies because of the amount of
           time the worship band had to be in rehearsals, but that's ok. Playing up on stage was an
@@ -344,7 +344,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="NCYC live recording" date="14-Jun-2009" author="Nate">
+      <CardItem title="NCYC live recording" date="14-Jun-2009">
         <Paragraph>
           On the 28th of June we're putting on a live concert to record the new NCYC'09 album.
           We've been practicing every Saturday and it's sounding pretty good.
@@ -356,7 +356,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="NCYC Worship band" date="22-May-2009" author="Nate">
+      <CardItem title="NCYC Worship band" date="22-May-2009">
         <Paragraph>
           On top of have two of my songs chosen to be part of the NCYC'09 songbook, I've also just
           found out that I've been selected from the audition process to be part of the main stage
@@ -364,7 +364,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="Two songs chosen" date="14-May-2008" author="Nate">
+      <CardItem title="Two songs chosen" date="14-May-2008">
         <Paragraph>
           Got some very exciting news yesterday. Two of the my songs have been select by the NCYC
           music team to be part of the NCYC'09 songbook. The two songs are <b>Living For Heaven</b>
@@ -372,7 +372,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="Getting ready for NCYC '09 submission" date="05-Feb-2008" author="Nate">
+      <CardItem title="Getting ready for NCYC '09 submission" date="05-Feb-2008">
         <Paragraph>
           Well it's been a few months now since the recording session in November and in that time
           I've been working my way through mixing the songs. I'm really loving learning more and more
@@ -401,7 +401,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="Another Recording Session" date="16-Nov-2007" author="Nate">
+      <CardItem title="Another Recording Session" date="16-Nov-2007">
         <Paragraph>
           Last Saturday we had another recording session at the church. It was a fantastic day and we
           managed to get 10 songs recorded which is a great effort. I'll be uploading them here as
@@ -409,7 +409,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="Remix of Shine Our Light" date="24-Sep-2007" author="Nate">
+      <CardItem title="Remix of Shine Our Light" date="24-Sep-2007">
         <Paragraph>
           I recently came across some new DAW software called <a href="http://reaper.fm/" target="_self">REAPER</a>
           so I decided to try it out by remixing Shine Our Light. What can I say, I'm extremely impressed.
@@ -427,7 +427,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="2 new songs and an update to the website" date="24-Aug-2007" author="Nate">
+      <CardItem title="2 new songs and an update to the website" date="24-Aug-2007">
         <Paragraph>
           It's been a fair while since I've updated the website, and I've had a few people ask for the
           link to it lately, so I thought it was a good time for an overhaul before I started handing
@@ -463,7 +463,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="Faith" date="07-Mar-2007" author="Nate">
+      <CardItem title="Faith" date="07-Mar-2007">
         <Paragraph>
           This month's theme at church is Faith, and after hearing two different talks about it on
           Sunday I got inspired.
@@ -473,7 +473,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="I finished writing another song today, and made some changes to another" date="30-Jan-2007" author="Nate">
+      <CardItem title="I finished writing another song today, and made some changes to another" date="30-Jan-2007">
         <Paragraph>
           I finished another song today. <b>This Troubled Life</b>. It's a slower one than my others
           so it'll be interesting to see how it goes with the band.
@@ -492,7 +492,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="2 new songs and an mp3" date="07-Jan-2007" author="Nate">
+      <CardItem title="2 new songs and an mp3" date="07-Jan-2007">
         <Paragraph>
           It's taken a lot longer than expected to mix the songs we recorded back in July but I finally
           managed to spend some time on it and I've done <b>Inside Of Me</b> and added a download link
@@ -503,7 +503,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="Another recording session" date="12-Jul-2006" author="Nate">
+      <CardItem title="Another recording session" date="12-Jul-2006">
         <Paragraph>
           We had another recording session yesterday to record some more new songs. I'm tired now, but
           it's worth it. The recording process is so much fun.
@@ -515,7 +515,7 @@ export default () => {
         </Paragraph>
       </CardItem>
 
-      <CardItem title="Website Started" date="08-Jul-2006" author="Nate">
+      <CardItem title="Website Started" date="08-Jul-2006">
         <Paragraph>
           I'm adding the sheet music for most of the songs I've written so far.
         </Paragraph>

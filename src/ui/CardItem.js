@@ -9,27 +9,33 @@ const StyledCard = styled(Card)`
 `;
 
 const StyledCardHeader = styled(CardContent)`
-  background-color: #57515c;
+  background-color: #5b729b;
   color: #e3e5ed;
 `;
 
-export const Content = styled.div`
-  padding: 16px;
+export const Content = styled(({ noPadding, ...props }) => (<div {...props} />))`
+  padding: ${p => p.noPadding ? '0' : '16px'};
 `;
 
 export const CardItem = ({
   title,
-  date,
   author,
+  date,
   children,
+  noPadding = false,
 }) => {
   return (
     <StyledCard>
       <StyledCardHeader>
         <h1>{title}</h1>
-        <p>{date}</p>
+        {author ? (
+          <p>{author}</p>
+        ) : null}
+        {date ? (
+          <p>{date}</p>
+        ) : null}
       </StyledCardHeader>
-      <Content>
+      <Content noPadding={noPadding}>
         <TextBlock>
           {children}
         </TextBlock>
