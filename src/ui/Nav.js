@@ -42,21 +42,25 @@ const ReactRouterLink = (props) => {
 export const Nav = () => (
   <StyledNav aria-label="navigation menu">
     <List>
-      {Object.values(ROUTES).map(({ url, Icon, title }) => (
-        <ListItem
-          key={url}
-          disablePadding
-        >
-          <ReactRouterLink to={url}>
-            <ListItemButton>
-              <ListItemIcon>
-                <Icon />
-              </ListItemIcon>
-              <ListItemText primary={title} />
-            </ListItemButton>
-          </ReactRouterLink>
-        </ListItem>
-      ))}
+      {Object.values(ROUTES).filter(
+        ({ title }) => !!title,
+      ).map(
+        ({ url, Icon, title }) => (
+          <ListItem
+            key={url}
+            disablePadding
+          >
+            <ReactRouterLink to={url}>
+              <ListItemButton>
+                <ListItemIcon>
+                  <Icon />
+                </ListItemIcon>
+                <ListItemText primary={title} />
+              </ListItemButton>
+            </ReactRouterLink>
+          </ListItem>
+        )
+      )}
     </List>
   </StyledNav>
 );

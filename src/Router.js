@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from 'react';
-import { BrowserRouter, Route, Routes, Redirect } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes, Redirect } from 'react-router-dom';
 
 import { ROUTES } from './routes';
 
@@ -9,25 +9,31 @@ const Router = () => {
   const routes = Object.values(ROUTES);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Suspense fallback={(
         <div></div>
       )}>
         <Routes>
-          {routes.map(({ url, Component }) => (
+          {routes.map(({ url, handleAnchor, route, element }) => (
             <Route
-              key={url}
-              exact
-              path={url}
-              element={<Component />}
-            />
+              key={route || url}
+              path={route || url}
+              element={element}
+            >
+              {handleAnchor ? (
+                <Route
+                  path=":anchor"
+                  element={element}
+                />
+              ) : null}
+            </Route>
           ))}
           <Route
             component={<NotFound />}  
           />
         </Routes>
       </Suspense>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

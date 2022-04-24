@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import LinkIcon from '@mui/icons-material/Link';
+import { useMatch, useParams } from 'react-router-dom';
 
 import { TextBlock } from './TextBlock';
 import LinkSvg from '../images/link.svg';
@@ -51,12 +52,18 @@ export const CardItem = ({
 }) => {
   const link = title.replace(/[^0-9a-z]/gi, '-').toLowerCase();
 
+  const match = useMatch(location.hash.slice(1));
+  const params = useParams();
+  // console.log({ match, params });
+
   React.useLayoutEffect(
     () => {
-      const hash = location.hash.slice(1).toLowerCase()
+      // const hash = location.hash.slice(1).toLowerCase()
+      const hash = params.anchor;
       if (hash === link) {
         const target = document.getElementById(hash);
         if (target) {
+          // debugger;
           target.scrollIntoView();
         }
       }
@@ -67,7 +74,7 @@ export const CardItem = ({
   return (
     <StyledCard>
       <StyledCardHeader>
-        <StyledAnchor id={link} className='hashLink' href={`#${link}`}>
+        <StyledAnchor id={link} className='hashLink' href={`${location.hash}/${link}`}>
           <StyledHeader>
           {title}
             <LinkSvg className='hashIcon' />

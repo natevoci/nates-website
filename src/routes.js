@@ -1,4 +1,5 @@
 import React, { lazy } from 'react';
+import { Navigate } from 'react-router-dom';
 
 import HomeIcon from '@mui/icons-material/Home';
 import MusicIcon from '@mui/icons-material/LibraryMusic';
@@ -11,33 +12,38 @@ const Songs = lazy(() => import('./scenes/Songs'));
 const Dev = lazy(() => import('./scenes/Dev'));
 
 export const ROUTES = {
+  ROOT: {
+    url:'/',
+    element: <Navigate to="/home" />,
+  },
   HOME: {
     url: '/home',
+    handleAnchor: true,
     Icon: HomeIcon,
     title: 'Home',
-    Component: Home,
+    element: <Home />,
   },
   MUSIC: {
     url: '/music',
     Icon: MusicIcon,
     title: 'Music',
-    Component: Music,
+    element: <Music />,
   },
   MUSIC_SONGS: {
     url: '/music/songs',
     Icon: SongsIcon,
     title: 'Songs',
-    Component: Songs,
+    element: <Songs />,
   },
   // MUSIC_PLAYER: {
   //   url: '/ClientApps/music-player/index.html',
   //   title: 'Player',
-  //   Component: ,
+  //   element: ,
   // },
   DEV: {
     url: '/dev',
     Icon: DevIcon,
     title: 'Dev',
-    Component: Dev,
+    element: <Dev />,
   },
 };
