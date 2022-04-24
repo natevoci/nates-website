@@ -1,0 +1,2 @@
+var e=("undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:"undefined"!=typeof window?window:"undefined"!=typeof global?global:{}).parcelRequireaba1;e.register("dJvsS",(function(a,l){var n,o,r,d,i;n=a.exports,Object.defineProperty(n,"__esModule",{value:!0,configurable:!0}),o=a.exports,r="default",d=()=>t,Object.defineProperty(o,r,{get:d,set:i,enumerable:!0,configurable:!0});var f=e("ayMG0");e("acw62");var t=()=>f.jsx("div",{children:"Dev page"})}));
+//# sourceMappingURL=Dev.5ac8578a.js.map
