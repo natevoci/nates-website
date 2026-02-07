@@ -6,14 +6,14 @@ import LinkIcon from '@mui/icons-material/Link';
 import { useMatch, useParams } from 'react-router-dom';
 
 import { TextBlock } from './TextBlock';
-import LinkSvg from '../images/link.svg';
+import LinkSvg from '../images/link.svg?react';
 
 const StyledCard = styled(Card)`
   margin-bottom: 16px;
 `;
 
 const StyledCardHeader = styled(CardContent)`
-  background-color: #5b729b;
+  background-color: #485a7a;
   color: #e3e5ed;
 `;
 

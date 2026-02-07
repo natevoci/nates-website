@@ -3,81 +3,81 @@ import { Link } from 'react-router-dom';
 
 import { Layout, Nav, TextBlock, Paragraph, BlockQuote, Indent } from '../../ui';
 
-import pdfRain from 'url:../../Downloads/Music/Rain.pdf';
-import audioRainLive from 'url:../../Downloads/Music/Rain_(live).mp3';
+import pdfRain from '../../Downloads/Music/Rain.pdf?url';
+import audioRainLive from '../../Downloads/Music/Rain_(live).mp3?url';
 
-import pdfTheGreatIAMIsHere from 'url:../../Downloads/Music/The Great I AM Is Here.pdf';
-import audioTheGreatIAmIsHere from 'url:../../Downloads/Music/The Great I AM Is Here (Acoustic).mp3';
+import pdfTheGreatIAMIsHere from '../../Downloads/Music/The Great I AM Is Here.pdf?url';
+import audioTheGreatIAmIsHere from '../../Downloads/Music/The Great I AM Is Here (Acoustic).mp3?url';
 
-import pdfWeHaveASaviour from 'url:../../Downloads/Music/We Have A Saviour.pdf';
-import audioWeHaveASaviour from 'url:../../Downloads/Music/17 - Deep Creek - We Have A Saviour.mp3';
-import audioWeHaveASaviourLive from 'url:../../Downloads/Music/We Have A Saviour_(live).mp3';
+import pdfWeHaveASaviour from '../../Downloads/Music/We Have A Saviour.pdf?url';
+import audioWeHaveASaviour from '../../Downloads/Music/17 - Deep Creek - We Have A Saviour.mp3?url';
+import audioWeHaveASaviourLive from '../../Downloads/Music/We Have A Saviour_(live).mp3?url';
 
-import pdfAmazingInB from 'url:../../Downloads/Music/Amazing.pdf';
-import pdfAmazingInA from 'url:../../Downloads/Music/Amazing (in A).pdf';
-import audioAmazing from 'url:../../Downloads/Music/16 - Deep Creek - Amazing.mp3';
-import audioAmazingLive from 'url:../../Downloads/Music/Amazing_(live).mp3';
+import pdfAmazingInB from '../../Downloads/Music/Amazing.pdf?url';
+import pdfAmazingInA from '../../Downloads/Music/Amazing (in A).pdf?url';
+import audioAmazing from '../../Downloads/Music/16 - Deep Creek - Amazing.mp3?url';
+import audioAmazingLive from '../../Downloads/Music/Amazing_(live).mp3?url';
 
-import pdfFollowTheSigns from 'url:../../Downloads/Music/Follow The Signs.pdf';
-import audioFollowTheSigns from 'url:../../Downloads/Music/15 - Deep Creek - Follow The Signs.mp3';
+import pdfFollowTheSigns from '../../Downloads/Music/Follow The Signs.pdf?url';
+import audioFollowTheSigns from '../../Downloads/Music/15 - Deep Creek - Follow The Signs.mp3?url';
 
-import pdfIllGo from 'url:../../Downloads/Music/I\'ll Go.pdf';
-import audioIllGo from 'url:../../Downloads/Music/14 - Deep Creek - I\'ll Go.mp3';
+import pdfIllGo from '../../Downloads/Music/I\'ll Go.pdf?url';
+import audioIllGo from '../../Downloads/Music/14 - Deep Creek - I\'ll Go.mp3?url';
 
-import pdfYourKingdom from 'url:../../Downloads/Music/Your Kingdom.pdf';
-import audioYourKingdom from 'url:../../Downloads/Music/13 - Deep Creek - Your Kingdom.mp3';
+import pdfYourKingdom from '../../Downloads/Music/Your Kingdom.pdf?url';
+import audioYourKingdom from '../../Downloads/Music/13 - Deep Creek - Your Kingdom.mp3?url';
 
-import pdfLivingForHeaven from 'url:../../Downloads/Music/Living For Heaven.pdf';
-import audioLivingForHeaven from 'url:../../Downloads/Music/11 - Deep Creek - Living For Heaven.mp3';
+import pdfLivingForHeaven from '../../Downloads/Music/Living For Heaven.pdf?url';
+import audioLivingForHeaven from '../../Downloads/Music/11 - Deep Creek - Living For Heaven.mp3?url';
 
-import pdfNotAlone from 'url:../../Downloads/Music/Not Alone.pdf';
-import audioNotAlone from 'url:../../Downloads/Music/Not Alone_(live).mp3';
+import pdfNotAlone from '../../Downloads/Music/Not Alone.pdf?url';
+import audioNotAlone from '../../Downloads/Music/Not Alone_(live).mp3?url';
 
-import pdfStepOutInFaith from 'url:../../Downloads/Music/Step Out In Faith.pdf';
-import audioStepOutInFaith from 'url:../../Downloads/Music/05 - Deep Creek - Step Out In Faith.mp3';
+import pdfStepOutInFaith from '../../Downloads/Music/Step Out In Faith.pdf?url';
+import audioStepOutInFaith from '../../Downloads/Music/05 - Deep Creek - Step Out In Faith.mp3?url';
 
-import pdfThisTroubledLife from 'url:../../Downloads/Music/This Troubled Life.pdf';
+import pdfThisTroubledLife from '../../Downloads/Music/This Troubled Life.pdf?url';
 
-import pdfCalled from 'url:../../Downloads/Music/Called.pdf';
-import audioCalled from 'url:../../Downloads/Music/06 - Deep Creek - Called.mp3';
-import audioCalledLive from 'url:../../Downloads/Music/Called_(live).mp3';
-import audioCalledLiveHeavier from 'url:../../Downloads/Music/Called_(live heavier).mp3';
+import pdfCalled from '../../Downloads/Music/Called.pdf?url';
+import audioCalled from '../../Downloads/Music/06 - Deep Creek - Called.mp3?url';
+import audioCalledLive from '../../Downloads/Music/Called_(live).mp3?url';
+import audioCalledLiveHeavier from '../../Downloads/Music/Called_(live heavier).mp3?url';
 
-import pdfCreation from 'url:../../Downloads/Music/Creation.pdf';
-import audioCreation from 'url:../../Downloads/Music/03 - Deep Creek - Creation.mp3';
-import audioCreationAcoustic from 'url:../../Downloads/Music/Creation_(acoustic).mp3';
+import pdfCreation from '../../Downloads/Music/Creation.pdf?url';
+import audioCreation from '../../Downloads/Music/03 - Deep Creek - Creation.mp3?url';
+import audioCreationAcoustic from '../../Downloads/Music/Creation_(acoustic).mp3?url';
 
-import pdfABetterWay from 'url:../../Downloads/Music/A Better Way.pdf';
-import audioABetterWay from 'url:../../Downloads/Music/01 - Deep Creek - A Better Way.mp3';
-import audioABetterWayLive from 'url:../../Downloads/Music/A Better Way_(live).mp3';
+import pdfABetterWay from '../../Downloads/Music/A Better Way.pdf?url';
+import audioABetterWay from '../../Downloads/Music/01 - Deep Creek - A Better Way.mp3?url';
+import audioABetterWayLive from '../../Downloads/Music/A Better Way_(live).mp3?url';
 
-import pdfDoWhatWeCan from 'url:../../Downloads/Music/Do What We Can.pdf';
+import pdfDoWhatWeCan from '../../Downloads/Music/Do What We Can.pdf?url';
 
-import pdfInsideOfMe from 'url:../../Downloads/Music/Inside Of Me.pdf';
-import audioInsideOfMe from 'url:../../Downloads/Music/04 - Deep Creek - Inside Of Me.mp3';
+import pdfInsideOfMe from '../../Downloads/Music/Inside Of Me.pdf?url';
+import audioInsideOfMe from '../../Downloads/Music/04 - Deep Creek - Inside Of Me.mp3?url';
 
-import pdfShineOurLight from 'url:../../Downloads/Music/Shine Our Light.pdf';
-import audioShineOurLight from 'url:../../Downloads/Music/09 - Deep Creek - Shine Our Light.mp3';
+import pdfShineOurLight from '../../Downloads/Music/Shine Our Light.pdf?url';
+import audioShineOurLight from '../../Downloads/Music/09 - Deep Creek - Shine Our Light.mp3?url';
 
-import pdfFilledWithYourLove from 'url:../../Downloads/Music/Filled With Your Love.pdf';
+import pdfFilledWithYourLove from '../../Downloads/Music/Filled With Your Love.pdf?url';
 
-import pdfInHonourOfYou from 'url:../../Downloads/Music/In Honour Of You.pdf';
-import audioInHonourOfYou from 'url:../../Downloads/Music/12 - Deep Creek - In Honour Of You.mp3';
+import pdfInHonourOfYou from '../../Downloads/Music/In Honour Of You.pdf?url';
+import audioInHonourOfYou from '../../Downloads/Music/12 - Deep Creek - In Honour Of You.mp3?url';
 
-import pdfAllYouWantMeToBe from 'url:../../Downloads/Music/All You Want Me To Be.pdf';
-import audioAllYouWantMeToBe from 'url:../../Downloads/Music/All You Want Me To Be.mp3';
+import pdfAllYouWantMeToBe from '../../Downloads/Music/All You Want Me To Be.pdf?url';
+import audioAllYouWantMeToBe from '../../Downloads/Music/All You Want Me To Be.mp3?url';
 
-import pdfAsWeGather from 'url:../../Downloads/Music/As We Gather.pdf';
-import audioAsWeGather from 'url:../../Downloads/Music/As We Gather.mp3';
+import pdfAsWeGather from '../../Downloads/Music/As We Gather.pdf?url';
+import audioAsWeGather from '../../Downloads/Music/As We Gather.mp3?url';
 
-import pdfKnowTheTruth from 'url:../../Downloads/Music/Know The Truth.pdf';
-import audioKnowTheTruth from 'url:../../Downloads/Music/08 - Deep Creek - Know The Truth.mp3';
+import pdfKnowTheTruth from '../../Downloads/Music/Know The Truth.pdf?url';
+import audioKnowTheTruth from '../../Downloads/Music/08 - Deep Creek - Know The Truth.mp3?url';
 
-import pdfOurGuideAndOurFlame from 'url:../../Downloads/Music/Our Guide And Our Flame.pdf';
-import audioOurGuideAndOurFlame from 'url:../../Downloads/Music/10 - Deep Creek - Our Guide And Our Flame.mp3';
+import pdfOurGuideAndOurFlame from '../../Downloads/Music/Our Guide And Our Flame.pdf?url';
+import audioOurGuideAndOurFlame from '../../Downloads/Music/10 - Deep Creek - Our Guide And Our Flame.mp3?url';
 
-import pdfThroughYourEyes from 'url:../../Downloads/Music/Through Your Eyes.pdf';
-import audioThroughYourEyes from 'url:../../Downloads/Music/02 - Deep Creek - Through Your Eyes.mp3';
+import pdfThroughYourEyes from '../../Downloads/Music/Through Your Eyes.pdf?url';
+import audioThroughYourEyes from '../../Downloads/Music/02 - Deep Creek - Through Your Eyes.mp3?url';
 
 // import pdf from 'url:../../';
 // import pdf from 'url:../../';

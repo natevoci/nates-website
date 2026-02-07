@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from 'react';
-import { BrowserRouter, HashRouter, Route, Routes, Redirect } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 
 import { ROUTES } from './routes';
 
@@ -29,7 +29,8 @@ const Router = () => {
             </Route>
           ))}
           <Route
-            component={<NotFound />}  
+            path="*"
+            element={<NotFound />}  
           />
         </Routes>
       </Suspense>

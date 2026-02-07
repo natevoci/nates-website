@@ -32,6 +32,7 @@ const StyledLink = styled(({ $match, ...props }) => (<Link {...props} />))`
   border-radius: 12px;
   overflow: hidden;
   background-color: ${p => p.$match ? '#E5E6EA' : 'inherit'};
+  color: #0e5ecd;
 `;
 
 const ReactRouterLink = (props) => {

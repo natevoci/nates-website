@@ -2,12 +2,12 @@ import React from 'react';
 
 import { Layout, Nav, CardItem, Paragraph, Audio, BlockQuote } from '../../ui';
 
-import audioRainLive from 'url:../../Downloads/Music/Rain_(live).mp3';
-import audioWeHaveASaviour from 'url:../../Downloads/Music/17 - Deep Creek - We Have A Saviour.mp3';
-import audioAmazing from 'url:../../Downloads/Music/16 - Deep Creek - Amazing.mp3';
-import audioFollowTheSigns from 'url:../../Downloads/Music/15 - Deep Creek - Follow The Signs.mp3';
-import audioIllGo from 'url:../../Downloads/Music/14 - Deep Creek - I\'ll Go.mp3';
-import audioYourKingdom from 'url:../../Downloads/Music/13 - Deep Creek - Your Kingdom.mp3';
+import audioRainLive from '../../Downloads/Music/Rain_(live).mp3?url';
+import audioWeHaveASaviour from '../../Downloads/Music/17 - Deep Creek - We Have A Saviour.mp3?url';
+import audioAmazing from '../../Downloads/Music/16 - Deep Creek - Amazing.mp3?url';
+import audioFollowTheSigns from '../../Downloads/Music/15 - Deep Creek - Follow The Signs.mp3?url';
+import audioIllGo from '../../Downloads/Music/14 - Deep Creek - I\'ll Go.mp3?url';
+import audioYourKingdom from '../../Downloads/Music/13 - Deep Creek - Your Kingdom.mp3?url';
 
 import imageTSFileSource from '../../images/screenshot-tsnowandnext1.png';
 import imageKeyboardRedirector from '../../images/screenshot-keyboardredirector.png';
