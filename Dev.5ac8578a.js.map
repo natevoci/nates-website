@@ -1,1 +1,0 @@
-{"mappings":"6aAEAA,EAIE,IAHMC,EAAAC,IACH,MAAG,UAAC","sources":["src/scenes/Dev/index.js"],"sourcesContent":["import React from 'react';\r\n\r\nexport default () => {\r\n  return (\r\n    <div>Dev page</div>\r\n  )\r\n};\r\n"],"names":["$9ff7e28d6db5b99f$export$2e2bcd8739ae039","$ayMG0","jsx"],"version":3,"file":"Dev.5ac8578a.js.map"}

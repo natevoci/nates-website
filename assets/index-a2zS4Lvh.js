@@ -1,0 +1,1 @@
+import{R as e}from"./index-C3XS5fNf.js";import{L as t,N as a}from"./Youtube-CnK7HhBu.js";const o=()=>e.createElement(t,{nav:e.createElement(a,null)},e.createElement("div",null,"Page not found"));export{o as default};
