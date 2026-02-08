@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import { Layout, Nav, CardItem, TextBlock, Paragraph } from '../../ui';
 // import { ROUTES } from '../../routes';
@@ -17,7 +16,7 @@ export default () => {
 
       <CardItem title="DigitalWatch">
         <Paragraph>
-          <Link to='https://github.com/natevoci/DigitalWatch'>https://github.com/natevoci/DigitalWatch</Link>
+          <a href='https://github.com/natevoci/DigitalWatch' target="_blank" rel="noopener noreferrer">https://github.com/natevoci/DigitalWatch</a>
         </Paragraph>
 
         <Paragraph>

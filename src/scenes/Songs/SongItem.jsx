@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import { Link } from 'react-router-dom';
 
 import MuiAccordion from '@mui/material/Accordion';
 import MuiAccordionSummary from '@mui/material/AccordionSummary';
@@ -11,8 +10,14 @@ import DownloadIcon from '@mui/icons-material/Download';
 
 import { TextBlock, CardItem, Paragraph, Indent, Pre, useOnScreen, Youtube } from '../../ui';
 
-const DownloadLink = styled(Link)`
+const DownloadLink = styled.a`
   line-height: 40px;
+  color: #1976d2;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 
   & > svg {
     vertical-align: middle;
@@ -103,7 +108,7 @@ export const SongItem = ({
               {downloads.map(download => (
                 <TextBlock key={download.url}>
                   <Paragraph>
-                    <DownloadLink to={download.url}>
+                    <DownloadLink href={download.url}>
                       <DownloadIcon />
                       {download.title}
                     </DownloadLink>
